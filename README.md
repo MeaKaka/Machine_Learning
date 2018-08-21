@@ -49,7 +49,7 @@ h(x)=θ_0+θ_1X_1+\cdots+θ_nX_n
 ```
 通过求导，确定移动方向，最终使得曲线下降到最低点，最终实现h(x)和y的拟合，以达到预测的目的。
 
-![梯度下降图像](https://github.com/MeaKaka/Machine_Learning/blob/master/img/sigmod%E5%87%BD%E6%95%B0.png)
+![梯度下降图像](https://github.com/MeaKaka/Machine_Learning/blob/master/img/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D.PNG)
 
 Tips:
 
