@@ -59,7 +59,7 @@ Tips:
 
 #### 逻辑回归
 使用逻辑回归大多是进行分类，classification，常见的是通过Sigmoid函数进行分类。
-![sigmod函数图像](C:\Users\胡晓慧\Desktop\Study\机器学习\笔记\img\sigmod函数.png)
+![sigmod函数图像](https://github.com/MeaKaka/Machine_Learning/blob/master/img/sigmod%E5%87%BD%E6%95%B0.png)
 
 通过Sigmoid函数的图像可以看出，当输入x小于0的时候，Sigmoid函数的输出值小于0.5；当输入x大于0的时候，Sigmoid函数的输出值大于0.5。因此，当输出值小于0.5的时候预测为0；大于等于0.5时预测为1。
 
@@ -118,11 +118,11 @@ J(θ)=\frac{1}{2m}[\sum(h(x_i)-y_i)^2-λ\sumθ_j^2]
 ```
 关于数据拟合核心就是两个问题，一是拟合不充分；而是过拟合。针对拟合不充分的问题可以增加特征量、利用增加多项式特征、减少λ的值等方法来解决；而针对过拟合问题可以通过增加测试数据的数量、减少特征集合的规模、增大惩罚参数λ的值来解决。这样问题就变成了如何判断模型与数据是否处于欠拟合或过拟合状态，针对这个问题可以利用交叉验证法进行验证。将数据以一定的比例（一般是6：2：2）分为训练集、验证集和测试集，结合测试集和验证集的数据量/错误率图像判断当前模型状态。
 
-![过拟合与欠拟合图像](C:\Users\胡晓慧\Desktop\Study\机器学习\笔记\img\过拟合与欠拟合.png)
+![过拟合与欠拟合图像](https://github.com/MeaKaka/Machine_Learning/blob/master/img/%E8%BF%87%E6%8B%9F%E5%90%88%E4%B8%8E%E6%AC%A0%E6%8B%9F%E5%90%88.png)
 
 此外，训练集和交叉验证集构成的学习曲线，也可以用来判断当前学习的状态，以确定是否需要增加训练样本。
 
-![学习曲线图像](C:\Users\胡晓慧\Desktop\Study\机器学习\笔记\img\学习曲线.png)
+![学习曲线图像](https://github.com/MeaKaka/Machine_Learning/blob/master/img/%E5%AD%A6%E4%B9%A0%E6%9B%B2%E7%BA%BF.png)
 
 #### 朴素贝叶斯
 
@@ -156,7 +156,7 @@ principal components analysis主成分分析，目的是为了选择一个低维
 
 数据的分布符合高斯分布，因此一般利用数据的高斯分布去判断数据是否异常。
 
-![高斯分布图像](C:\Users\胡晓慧\Desktop\Study\机器学习\笔记\img\高斯分布.png)
+![高斯分布图像](https://github.com/MeaKaka/Machine_Learning/blob/master/img/%E9%AB%98%E6%96%AF%E5%88%86%E5%B8%83.png)
 
 可以通过log()函数将非高斯分布的数据转化为符合高斯分布的数据。
 
